@@ -8,12 +8,12 @@ https://arxiv.org/pdf/2405.09935
 As natural language generation (NLG) models have become prevalent, systematically assessing the quality of machine-generated texts has become increasingly important. Recent studies introduce LLM-based evaluators that operate as reference-free metrics, demonstrating their capability to adeptly handle novel tasks. However, these models generally rely on a single-agent approach, which, we argue, introduces an inherent limit to their performance. This is because there exist biases in LLM agent’s responses, including preferences for certain text structure or content. In this work, we propose DEBATE, an NLG evaluation framework based on multiagent scoring system augmented with a concept of Devil’s Advocate. Within the framework, one agent is instructed to criticize other agents’ arguments, potentially resolving the bias in LLM agent’s answers. DEBATE substantially outperforms the previous state-of-the-art methods in two meta-evaluation benchmarks in NLG evaluation, SummEval and TopicalChat. We also show that the extensiveness of debates among agents and the persona of an agent can influence the performance of evaluators.
 
 <p align="center">
-<img src=".\png\figure" height = "350" alt="" align=center />
+<img src=".\png\figure.png" height = "350" alt="" align=center />
 </p>
 
 ## Main Result
 <p align="center">
-<img src=".\png\results" height = "450" alt="" align=center />
+<img src=".\png\results.png" height = "450" alt="" align=center />
 </p>
 
 ## Citation
